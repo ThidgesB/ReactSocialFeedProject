@@ -1,0 +1,33 @@
+.border-box {
+    
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+    margin: auto;
+    padding: 2em;
+    border-radius: 25px;
+}
+
+.row {
+    margin: 1em;
+    padding: 1em;
+}
+
+.form-box{
+    margin: auto;
+    width: 50%;
+    border: 3px salmon;
+    padding: 10px;
+
+}
+
+.post-box{
+    border: 2px;
+    border-style: solid;
+    border-color: salmon;
+    margin: auto;
+    padding: 2em;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

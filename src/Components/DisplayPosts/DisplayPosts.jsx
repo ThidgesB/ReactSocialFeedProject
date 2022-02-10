@@ -8,11 +8,11 @@ const DisplayPosts = (props) => {
         <tbody>
           {props.parentPosts.map((post) => {
             return (
-              <tr>
+              <body className='post-box'>
                 <td>{post.name}</td>
                 <td>{post.post}</td>
                 <td><MasterButton /></td>
-              </tr>
+              </body>
             );
           })}
         </tbody>
