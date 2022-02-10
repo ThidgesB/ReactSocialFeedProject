@@ -1,13 +1,7 @@
 
 const DisplayPosts = (props) => {
     return ( 
-        <table>
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Post</th>
-            </tr>
-            </thead>
+        <table clasName='table'>
         <tbody>
           {props.parentPosts.map((post) => {
             return (
