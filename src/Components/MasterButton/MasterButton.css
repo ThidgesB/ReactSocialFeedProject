@@ -9,3 +9,8 @@
 .disliked {
     background-color: red;
 }
+
+.reactionBtn {
+    border-radius: 15%;
+    margin: 5px;
+}

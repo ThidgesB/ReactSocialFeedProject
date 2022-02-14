@@ -1,11 +1,13 @@
 .border-box {
-    
+    width: 60vw;
     border: 2px;
     border-style: solid;
     border-color: orange;
-    margin: auto;
     padding: 2em;
     border-radius: 25px;
+    margin-bottom: 10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .row {
@@ -14,8 +16,6 @@
 }
 
 .form-box{
-    margin: auto;
-    width: 50%;
     border: 3px salmon;
     padding: 10px;
 
@@ -30,4 +30,5 @@
     border-radius: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
+    width: 56vw;
 }
